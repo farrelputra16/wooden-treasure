@@ -10,7 +10,7 @@ const Home = () => {
                 imgsrc={home} 
                 isCompName={true}
                 compName="Wooden Treasure"
-                visit='/services' 
+                visit='/claimreward' 
                 btnname="Get Reward" 
             />
         </>
