@@ -6,10 +6,10 @@ const Home = () => {
     return (
         <>
             <Common 
-                name='Hold 10M Tokens and get reward from' 
+                name='Hold 10M Tokens and get rewards' 
                 imgsrc={home} 
                 isCompName={true}
-                compName="Wooden Treasures"
+                compName="CA : "
                 visit='/claimreward' 
                 btnname="Get Reward" 
             />

@@ -23,7 +23,9 @@ const Common = ({
                                     
                                 </h1>
                                 <h2 className="my-3">
-                                    CA : 
+                                By holding 10 million tokens of our coin, you’ll receive a one-time promo code to purchase any product of your choice from our online store, <a href="https://woodentreasures.store" target="_blank" rel="noopener noreferrer">
+  woodentreasures.store
+</a>. To verify your holdings and send you the code, we’ll reach out via Telegram.
                                 </h2>
                                 <div className="mt-3">
                                     <NavLink to={visit} className="btn-get-started ">
