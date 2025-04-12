@@ -11,7 +11,7 @@ const Navbar = () => {
             <nav className="navbar navbar-expand-lg navbar-light">
               <div className="container-fluid">
                 <NavLink  exact className="navbar-brand" to="/">
-                  Company Name
+                  Wooden Treasure 
                 </NavLink>
                 <button
                   className="navbar-toggler"
@@ -40,17 +40,12 @@ const Navbar = () => {
                     </li>
                     <li className="nav-item">
                       <NavLink activeClassName="menu_active"  exact className="nav-link" to="/services">
-                        Services
+                        Rewards
                       </NavLink>
                     </li>
                     <li className="nav-item">
-                      <NavLink activeClassName="menu_active"  exact className="nav-link" to="/about">
-                        About
-                      </NavLink>
-                    </li>
-                    <li className="nav-item">
-                      <NavLink activeClassName="menu_active"  exact className="nav-link" to="/contact">
-                        Contact
+                      <NavLink activeClassName="menu_active"  exact className="nav-link" to="/claimreward">
+                        Claim
                       </NavLink>
                     </li>
                   </ul>

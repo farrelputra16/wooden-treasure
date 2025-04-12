@@ -1,17 +1,17 @@
 import React from 'react';
-import home from "../images/home.svg";
+import home from "../images/home.png";
 import Common from './Common';
 
 const Home = () => {
     return (
         <>
             <Common 
-                name='Grow your business with' 
+                name='Hold 10M Tokens and get reward from' 
                 imgsrc={home} 
                 isCompName={true}
-                compName="Company Name"
+                compName="Wooden Treasure"
                 visit='/services' 
-                btnname="Get Started" 
+                btnname="Get Reward" 
             />
         </>
     )

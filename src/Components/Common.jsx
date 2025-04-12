@@ -23,7 +23,7 @@ const Common = ({
                                     
                                 </h1>
                                 <h2 className="my-3">
-                                    We are the team of talented developer making websites
+                                    CA : 
                                 </h2>
                                 <div className="mt-3">
                                     <NavLink to={visit} className="btn-get-started ">

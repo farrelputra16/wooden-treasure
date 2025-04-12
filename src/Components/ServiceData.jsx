@@ -1,35 +1,16 @@
-import android from "../images/android.jpg";
-import web from "../images/web.jpg";
-// import digital from "../images/digital.jpg";
-import marketing from "../images/marketing.jpg";
-import software from "../images/software.jpg";
-import fullstack from "../images/fullstack.jpg";
-
-const ServiceData = [
+const RewardData = [
     {
-        imgsrc: web,
-        title: "Web Development"
+        videoSrc: "https://www.youtube.com/embed/cywZ2BYxiCM",
+        title: ""
     },
     {
-        imgsrc: android,
-        title: "Android Development"
+        videoSrc: "https://www.youtube.com/embed/l4uF24vQCh0",
+        title: ""
     },
     {
-        imgsrc: software,
-        title: "Software Development"
-    },
-    {
-        imgsrc: marketing,
-        title: "Digital Marketing"
-    },
-    {
-        imgsrc: fullstack,
-        title: "Full Stack Development"
-    },
-    {
-        imgsrc: marketing,
-        title: "Marketing"
+        videoSrc: "https://www.youtube.com/embed/Pd7T9ljyVKw",
+        title: ""
     }
 ];
 
-export default ServiceData;
+export default RewardData;

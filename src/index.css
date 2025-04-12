@@ -12,7 +12,7 @@
 
 .navbar-brand {
   font-size: 1.9rem !important;
-  color: #3498db !important;
+  color: #301403 !important;
 }
 
 .navbar a {
@@ -26,7 +26,7 @@
 }
 
 .navbar a:hover {
-  color: #3498db !important;
+  color: #301403 !important;
   border-bottom: 2px solid #565387;
 }
 
@@ -54,11 +54,11 @@
   margin: 0 0 10px 0;
   font-size: 48px;
   font-weight: 700;
-  color: black;
+  color: gray;
 }
 
 #header .brand-name {
-  color: #3498db;
+  color: #301403;
 }
 
 #header h2 {
@@ -74,12 +74,12 @@
   padding: 10px 30px;
   border-radius: 50px;
   transition: 0.5s;
-  border: 2px solid #3498db;
+  border: 2px solid #301403;
   text-decoration: none;
 }
 
 #header .btn-get-started:hover {
-  background-color: #3498db;
+  background-color: #301403;
   color: #fff;
 }
 
@@ -113,4 +113,94 @@
 
 #coverImg {
   object-fit: cover;
+}
+/* Add to the end of index.css */
+
+/* YouTube Shorts video container */
+.video-container {
+  position: relative;
+  width: 100%;
+  max-width: 360px; /* Typical width for Shorts, adjustable */
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+
+/* Enforce 9:16 aspect ratio for YouTube Shorts */
+.youtube-short {
+  width: 100%;
+  height: 640px; /* Adjust based on desired size, 9:16 ratio */
+  border: none;
+  border-radius: 10px; /* Optional: slight rounding for modern look */
+}
+
+/* Video title styling */
+.video-title {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.video-title h5 {
+  font-family: 'Mulish', sans-serif;
+  font-size: 1.2rem;
+  color: #301403;
+  font-weight: 600;
+}
+
+/* Responsive adjustments */
+@media (max-width: 576px) {
+  .video-container {
+    max-width: 300px;
+  }
+
+  .youtube-short {
+    height: 533px; /* Maintain 9:16 ratio for smaller width */
+  }
+}
+/* Add to the end of index.css */
+
+/* Image preview in form */
+.image-preview {
+  max-width: 100%;
+  text-align: center;
+}
+
+.image-preview img {
+  max-width: 200px;
+  height: auto;
+  border-radius: 5px;
+  border: 1px solid #301403;
+}
+
+/* Submission card */
+.submission-card {
+  border: 1px solid #301403;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.submission-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.submission-details p {
+  margin: 5px 0;
+  font-family: 'Mulish', sans-serif;
+  color: #301403;
+  font-size: 1rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 576px) {
+  .submission-card {
+    padding: 10px;
+  }
+
+  .image-preview img {
+    max-width: 150px;
+  }
 }

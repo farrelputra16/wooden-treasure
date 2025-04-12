@@ -5,10 +5,10 @@ import "bootstrap/dist/js/bootstrap.bundle";
 // import "bootstrap/js/src/dropdown";
 import { Switch, Route, Redirect } from 'react-router-dom'
 import Home from './Components/Home'
-import About from './Components/About'
 import Contact from './Components/Contact'
 import Services from './Components/Services'
 import Navbar from './Components/Navbar'
+import ClaimReward from './Components/ClaimReward';
 
 
 const App = () => {
@@ -18,7 +18,7 @@ const App = () => {
 		<Switch>
 			<Route exact path="/" component={Home} />
 			<Route exact path="/services" component={Services} />
-			<Route exact path="/about" component={About} />
+			<Route exact path="/claimreward" component={ClaimReward} />
 			<Route exact path="/contact" component={Contact} />
 			<Redirect to="/" />
 		</Switch>
