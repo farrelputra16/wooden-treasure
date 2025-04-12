@@ -9,7 +9,7 @@ const Home = () => {
                 name='Hold 10M Tokens and get reward from' 
                 imgsrc={home} 
                 isCompName={true}
-                compName="Wooden Treasure"
+                compName="Wooden Treasures"
                 visit='/claimreward' 
                 btnname="Get Reward" 
             />
